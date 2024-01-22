@@ -1,0 +1,17 @@
+create the database in Mysql 
+
+
+# CREATE DATABASE IF NOT EXIST database_Name;     //create Database \
+
+>> SWITCH TO DB 
+
+# CREATE TABLE IF NOT EXIST table_Name;
+          or
+CREATE TABLE IF NOT EXISTS `employee` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR(50),
+    `designation` VARCHAR(50),
+    `salary` DECIMAL(10,2)
+);
+
+
