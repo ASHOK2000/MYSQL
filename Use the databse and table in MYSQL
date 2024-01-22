@@ -1,0 +1,13 @@
+MYSQL
+
+$ mysql -u root -p     //then enter your password 
+
+$ SHOW DATABASES;      // show list of dartabases
+
+$ USE db_Name;        // switch to database 
+
+$ SHOW TABLES;        // show all table inside database
+
+$ SELECT * FROM Table_Name   // show data inside the table 
+
+$ SELECT  field1 , field2 from Table_Name  //show the selected data inside the table 
