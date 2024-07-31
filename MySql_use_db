@@ -1,6 +1,6 @@
 MYSQL
 
-$ mysql -u root -p     //then enter your password 
+$ mysql -u root -p     //then enter your password ex. MyNewPass
 
 $ SHOW DATABASES;      // show list of dartabases
 
