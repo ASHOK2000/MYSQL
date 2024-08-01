@@ -1,13 +1,22 @@
 MYSQL
+Assuming  the company/DB  name is XYZ and the table is an employee 
 
-$ mysql -u root -p     //then enter your password ex. MyNewPass
+mysql> mysql -u root -p     //then enter your password ex. MyNewPass
 
-$ SHOW DATABASES;      // show list of dartabases
+mysql> SHOW DATABASES;      // show list of dartabases
 
-$ USE db_Name;        // switch to database 
+mysql> USE db_Name;        // switch to database 
 
-$ SHOW TABLES;        // show all table inside database
+mysql>  create table employee(
+    -> id int primary key,
+    -> name varchar(50),
+    -> salary float);
 
-$ SELECT * FROM Table_Name   // show data inside the table 
+mysql> SHOW TABLES;        // show all table inside database
 
-$ SELECT  field1 , field2 from Table_Name  //show the selected data inside the table 
+mysql> insert into employee values(1,"Ashok",150000.00);
+
+mysql> SELECT * FROM Table_Name   // show data inside the table 
+
+mysql> SELECT  field1 , field2 from Table_Name  //show the selected data inside the table 
+
